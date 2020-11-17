@@ -42,7 +42,6 @@ define('ROOTDIR', realpath(__DIR__.'/../') .DS);
  */
 
 if (defined('ENVIRONMENT')){
-
 	switch (ENVIRONMENT){
 		case 'development':
 			error_reporting(E_ALL);
@@ -55,7 +54,6 @@ if (defined('ENVIRONMENT')){
 		default:
 			exit('The application environment is not set correctly.');
 	}
-
 }
 
 //initiate config
